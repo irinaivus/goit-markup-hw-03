@@ -19,6 +19,7 @@ body{
     font-size: 14px;
     letter-spacing: 0.02em;
 }
+
 /* Logotype */
 .logo-first {
     color: var(--third-color);
@@ -176,16 +177,20 @@ color: var(--third-color);
     letter-spacing: 0.03em;
 }
 .btn-list:hover,
-.btn-list:focus{
+.btn-list:focus,
+.btn-list.active{
     cursor: pointer;
     color: var(--fourth-color);
     background-color: var(--third-color);
 }
 
+/* 
 .active:active {
     color: var(--fourth-color);
     background-color: var(--third-color);
 }
+ */
+ 
 .project-main{
     font-size: 18px;
     line-height: 2;
