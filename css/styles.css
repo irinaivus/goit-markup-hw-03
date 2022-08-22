@@ -33,6 +33,12 @@ body {
   letter-spacing: 0.02em;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .container {
   width: 1200px;
   margin-left: auto;
@@ -64,11 +70,6 @@ body {
   padding-bottom: 94px;
 }
 
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
 /*========================================= Logotype ========================================= */
 .logo-first {
   color: var(--third-color);
