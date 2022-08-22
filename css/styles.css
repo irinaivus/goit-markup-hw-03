@@ -7,6 +7,7 @@
   --sixth-color: #000000;
   --seventh-color: #2f303a;
   --eighth-color: #188ce8;
+  --border-header: #eeeeee;
   --main-font-family: "Roboto", sans-serif;
   --main-font-weight: 500;
 }
@@ -49,6 +50,9 @@ body {
 .page-header {
   padding-top: 24px;
   padding-bottom: 25px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #ececec;
 }
 
 .contacts-container {
@@ -229,6 +233,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+  padding-bottom: 94px;
 }
 
 .list-team {
@@ -266,10 +271,9 @@ body {
   display: flex;
   justify-content: space-between;
   gap: 30px;
-  margin-bottom: 94px;
 }
 
-Не сработали эти варианты. Что с ними не так? 
+/* =========================== Another methods ================= */
 /* .benefits-item {
   display: flex;
 }
@@ -280,17 +284,33 @@ body {
   margin-right: 30px;
 } */
 
-
-
-
 /*========================================= Main content 2nd page ========================================= */
+
 .btn-list {
   border: none;
+  font-family: inherit;
   font-weight: var(--main-font-weight);
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
+  background-color: var(--fifth-color);
+  border-radius: 4px;
+  padding: 6px 22px;
 }
+
+.portfolio-list {
+  padding-bottom: 94px;
+}
+
+.button-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
+
 .btn-list:hover,
 .btn-list:focus,
 .btn-list.active {
@@ -299,14 +319,6 @@ body {
   background-color: var(--third-color);
 }
 
-.button-item {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  padding-top: 94px;
-  padding-bottom: 34px;
-  padding-left: 512px;
-}
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
@@ -316,6 +328,10 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  padding-top: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-bottom: 4px;
 }
 
 .project-text {
@@ -323,8 +339,14 @@ body {
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--second-color);
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 20px;
 }
-
+.porfolio-card {
+  border: 1px solid var(--border-header);
+  width: 370px;
+}
 /*========================================= Footer ========================================= */
 .footer {
   background-color: var(--seventh-color);
