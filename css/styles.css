@@ -324,6 +324,7 @@ body {
   flex-wrap: wrap;
   gap: 30px;
 }
+
 .project-main {
   font-size: 18px;
   line-height: 2;
@@ -373,6 +374,7 @@ body {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
+
 .phone-number {
   display: flex;
   padding-bottom: 60px;
