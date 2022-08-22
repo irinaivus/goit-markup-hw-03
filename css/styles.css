@@ -222,8 +222,6 @@ img {
 }
 .team {
   background-color: var(--fifth-color);
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 .section-title {
   font-size: 36px;
@@ -261,6 +259,10 @@ img {
   color: var(--second-color);
   margin-top: 10px;
   padding-bottom: 30px;
+}
+
+.about {
+  padding-top: 0;
 }
 
 .list-benefits {
