@@ -59,6 +59,16 @@ body {
   margin-left: auto;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 /*========================================= Logotype ========================================= */
 .logo-first {
   color: var(--third-color);
@@ -143,9 +153,8 @@ body {
 /*========================================= Hero ========================================= */
 .hero {
   background-color: var(--seventh-color);
-  letter-spacing: 0.06em;
   text-align: center;
-  padding: 200px 200px;
+  padding: 200px 0;
 }
 
 .hero-title {
@@ -178,6 +187,7 @@ body {
   height: 50px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: none;
 }
 .button:hover,
 .button:focus {
@@ -210,7 +220,7 @@ body {
   color: var(--second-color);
   letter-spacing: 0.03em;
 }
-.main-title {
+.team {
   background-color: var(--fifth-color);
   padding-top: 94px;
   padding-bottom: 94px;
@@ -233,7 +243,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  padding-bottom: 94px;
 }
 
 .list-team {
@@ -242,26 +251,21 @@ body {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  margin-top: 30px;
-  margin-bottom: 10px;
+  padding-top: 30px;
 }
 .list-item {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-align: center;
-  color: var(--secondary-color);
-  margin-bottom: 30px;
-}
-.section-benefits {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  color: var(--second-color);
+  margin-top: 10px;
+  padding-bottom: 30px;
 }
 
 .list-benefits {
   display: flex;
   gap: 30px;
-  justify-content: space-between;
 }
 .benefits-item {
   width: 270px;
@@ -298,17 +302,12 @@ body {
   padding: 6px 22px;
 }
 
-.portfolio-list {
-  padding-bottom: 94px;
-}
-
 .button-item {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 8px;
-  padding-top: 94px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .btn-list:hover,
@@ -351,14 +350,18 @@ body {
 /*========================================= Footer ========================================= */
 .footer {
   background-color: var(--seventh-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .logo-footer {
-  display: flex;
-  padding-top: 60px;
+  display: block;
   margin-bottom: 20px;
 }
 
+.address-list {
+  margin-bottom: 9px;
+}
 .address {
   text-decoration: none;
   font-style: normal;
@@ -373,9 +376,4 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-}
-
-.phone-number {
-  display: flex;
-  padding-bottom: 60px;
 }
